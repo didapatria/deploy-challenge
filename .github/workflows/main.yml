@@ -37,8 +37,8 @@ jobs:
         run: yarn install
         
       # Runs a single command using the runners shell
-      - name: Test UI
-        run: yarn run test
+#       - name: Test UI
+#         run: yarn run test
         
       # Runs a single command using the runners shell
       - name: Build Production
